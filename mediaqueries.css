@@ -1,0 +1,190 @@
+@media screen and (max-width: 1400px) {
+  #profile {
+    height: 83vh;
+    margin-bottom: 6rem;
+  }
+  /* .about-containers {
+    flex-wrap: wrap;
+  } */
+}
+
+@media screen and (max-width: 1200px) {
+  #desktop-nav {
+    display: none;
+  }
+  #hamburger-nav {
+    display: flex;
+  }
+  #experience,
+  .experience-details-container {
+    margin-top: 2rem;
+  }
+  #profile,
+  .section-container {
+    display: block;
+  }
+  .arrow {
+    display: none;
+  }
+  section,
+  .section-container {
+    height: fit-content;
+  }
+  section {
+    margin: 0 5%;
+  }
+  .section__pic-container {
+    width: 275px;
+    height: 275px;
+    margin: 0 auto 2rem;
+  }
+  .about-containers {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  #contact,
+  footer {
+    height: 40vh;
+  }
+  #profile {
+    height: 83vh;
+    margin-bottom: 70px;
+  }
+  #projects{
+    margin-bottom: 0px;
+  }
+  #contact{
+    margin-bottom: 30px;
+  }
+  article {
+    font-size: 1rem;
+  }
+  footer nav {
+    height: fit-content;
+    margin-bottom: 2rem;
+  }
+  .about-containers,
+  .contact-info-upper-container,
+  .btn-container {
+    flex-wrap: wrap;
+  }
+  .contact-info-container {
+    margin: 0;
+  }
+  .contact-info-container p,
+  .nav-links li a {
+    font-size: 1rem;
+  }
+  .experience-sub-title {
+    font-size: 1.25rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+  }
+  .section__pic-container {
+    width: auto;
+    height: 46vw;
+    justify-content: center;
+    margin-bottom: 170px;
+    margin-top: 15px;
+  }
+  .section__pic-container img {
+    width: 300px;
+    margin: auto 0;
+    border-radius: 55%;
+  }
+  .section__text__p2 {
+    font-size: 1.25rem;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .text-container {
+    text-align: justify;
+  }
+  .title2{
+    margin-bottom: 15px;
+
+  }
+  *{
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+  }
+  body{
+    margin: 0px;
+    padding: 0px;
+    position: static;
+  }
+  .about-details-container{
+    margin: 20px;
+  }
+  .details-container{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 60%;
+  }
+  .Excel{
+    margin-left: 0px;
+    margin-right: 35px;
+  }
+  .bootstrap{
+    margin-left: 235px;
+  }
+  .git{
+    margin-right: -20px;
+  }
+  .contact-info-upper-container{
+    margin: 10px;
+  }
+  .form {
+    margin: 20px;
+    justify-content: center;
+  }
+  #about{
+    margin-bottom: 0px;  
+  }
+  p{
+    justify-content: center;
+
+  }
+  
+  .logo:hover {
+    cursor: default;
+    color: rgb(101, 208, 230);
+    transform: scale(1.2); /* Adjust the scale factor for zoom effect */
+    font-size: 25px; /* Adjust the font size for zoom effect */
+  }
+  .menu-links li a{
+   color: rgb(255, 107, 1);
+  }
+  .logo {
+    margin-left: -23px;
+  }
+  .hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 24px;
+    width: 30px;
+    cursor: pointer;
+    margin-right: -35px;
+  }
+  .menu-links li{
+    font-weight: bold;
+  }
+  nav {
+    justify-content: space-around;
+    align-items: center;
+    height: 13vh;
+    background-color: black;
+}
+  
+}
